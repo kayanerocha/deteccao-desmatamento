@@ -1,5 +1,5 @@
 
-# Detecção de Desematamento
+# Detecção de Desmatamento
 
 Este projeto foi realizado para a disciplina de Atividades Práticas Supervisionadas do 6º semestre do curso de Ciência da Computação.
 Este algoritmo é capaz de identificar desmatamento em imagens de satélites e preencher toda a área indicando onde houve o desmatamento.
