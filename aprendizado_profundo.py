@@ -48,7 +48,7 @@ nomes = ['desmatamento', 'floresta']
 
 # 16 imagens de treinamento
 imagens_treinamento.shape
-(16, 130, 130)
+(50, 130, 130)
 print(nomes_treinamento)
 
 # 6 imagens de testes
@@ -75,7 +75,7 @@ modelo.compile(optimizer=sgd,
               metrics=['accuracy'])
 
 # Treina o modelo
-modelo.fit(imagens_treinamento, nomes_treinamento, epochs=100)
+modelo.fit(imagens_treinamento, nomes_treinamento, epochs=6)
 
 # Avalia a precisão
 precisao_teste, acuracia_teste = modelo.evaluate(imagens_testes, nomes_testes)
